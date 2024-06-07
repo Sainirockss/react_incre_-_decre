@@ -3,7 +3,7 @@ import './App.css';
 import { useState } from 'react';
 
 function App() {
- const[count,setcount]= useState("0");  // initalize with zero
+ const[count,setcount]= useState(0);  // initalize with zero
 function decreasehandler(){
     setcount(count-1);
 }
